@@ -910,22 +910,24 @@ a {text-decoration: none;}
     }
     
     .about__main {
-        font-size: 2rem;
+        font-size: 1rem;
         margin: 1.2rem 0;
     }
     
     .about__description {
         font-size: .7rem;
-        width: 70%;
+        width: 100%;
         margin: 1.2rem auto;
     }
 
     .about__info {
         font-size: .6rem;
+        width: 100%;
     }
     
     .about__box {
-        justify-content: start;
+        justify-content: none;
+        align-items: none;
         padding: 1rem;
         flex-direction: column;
     }
@@ -933,10 +935,10 @@ a {text-decoration: none;}
     .about__grid {
         flex: 1;
         height: 35vh;
+        text-align: left;
     }
-    
-    .about__grid:first-child { margin-top: 2.5rem; }
-    .about__grid:not(:first-child) { margin-left: 2rem; }
+
+    .about__grid:not(:first-child) { margin-top: 1.5rem;}
 
     .form__box {
         margin-top: 3rem;
