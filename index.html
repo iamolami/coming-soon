@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./image/onubia.ico" type="image/icon type">
+    <title>Onubia- Africa #1 Marketplace</title>
+</head>
+<body>
+    <div class="menu__box" id="menu__box">
+        <div class="menu__close" id="menu__close"><i class='bx bx-window-close'></i></div>
+        <ul class="menu__items">
+            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">About Us</a></li>
+            <li class="menu__list"><a href="#" class="menu__link">Contact Us</a></li>
+        </ul>
+    </div>
+    <section class="header__container" id="home">
+        <img src="./image/bg-2.png" alt="" class="header__img">
+        <div class="header__overlay">
+            <nav class="header__navigation" id="header__navigation">
+                <div class="header__logo">
+                    <a href="#"><img src="./image/bg-1.png" alt="" class="header__log"></a>
+                </div>
+                <div class="header__menu" id="header__menu"><i class='bx bx-menu-alt-right'></i></div>
+            </nav>
+
+            <div class="header__box">
+                <div class="header__text">
+                    <h2 class="header__main"><span class="header__primary">Onubia</span> is
+                        <span class="header__span" data-period="2000" data-rotate='["Launching Soon", "coming soon", "Africa #1 Marketplace"]'></span>
+                    </h2>
+                    <p class="header__info">Our exciting new website is coming soon! Check back later...</p>
+                </div>
+
+                <div class="header__counter">
+                    <div class="header__count" id="countdown">
+                        <ul class="header__countingItems">
+                            <li class="header__countingList"><span class="header__countingNumbers" id="Days"></span>Days</li>
+                            <li class="header__countingList"><span class="header__countingNumbers" id="Hours"></span>Hours</li>
+                            <li class="header__countingList"><span class="header__countingNumbers" id="Minutes"></span>Minutes</li>
+                            <li class="header__countingList"><span class="header__countingNumbers" id="Seconds"></span>Seconds</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="header__button">
+                    <a href="#contact"><button class="header__btn-left">Notify Me</button></a>
+                    <a href="#about"><button class="header__btn-right">About Us</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="about__container" id="about">
+            <div class="about__textBox">
+                <p class="about__sub">What we do</p>
+                <h2 class="about__main">
+                    Africa Online Marketplace
+                </h2>
+                <span class="about__line"></span>
+                <p class="about__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla neque tempore rerum dolore accusamus, 
+                    eum, officia nostrum sequi explicabo aspernatur asperiores.
+                </p>
+            </div>
+
+            <div class="about__box">
+                <div class="about__grid">
+                    <div class="about__iconBox"><i class='bx bxs-truck'></i></div>
+                    <h2 class="about__title">Fast Delivery</h2>
+                    <p class="about__info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores incidunt laboriosam harum, voluptatem fugiat perspiciatis.
+                    </p>
+                </div>
+                <div class="about__grid">
+                    <div class="about__iconBox"><i class='bx bx-transfer'></i></div>
+                    <h2 class="about__title">Buy & Sell</h2>
+                    <p class="about__info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores incidunt laboriosam harum, voluptatem fugiat perspiciatis.
+                    </p>
+                </div>
+                <div class="about__grid">
+                    <div class="about__iconBox"><i class='bx bx-support'></i></div>
+                    <h2 class="about__title">Customer Support</h2>
+                    <p class="about__info">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores incidunt laboriosam harum, voluptatem fugiat perspiciatis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form__container" id="contact">
+            <div class="about__textBox">
+                <p class="about__sub">Connect With Us</p>
+                <h2 class="about__main">
+                    Get in Touch
+                </h2>
+                <span class="about__line"></span>
+                <p class="about__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla neque tempore rerum dolore accusamus, 
+                    eum, officia nostrum sequi explicabo aspernatur asperiores.
+                </p>
+            </div>
+
+            <form action="#" method="POST" class="form__box">
+                <input type="text" name="name" id="name" placeholder="First Name" required class="form__input form__text">
+                <input type="email" name="email" id="email" placeholder="Email" required class="form__input form__text">
+                <input type="text" name="subject" id="subject" placeholder="Subject" required class="form__input form__subject">
+                <textarea name="text" id="" cols="30" rows="10" class="form__input form__textarea" placeholder="Enter Your Message" required></textarea>
+                <button type="submit" class="form__btn">Send Message</button> 
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="footer__link"><div class="footer__iconBox"><i class='bx bxl-facebook'></i></div></a>
+        <a href="#" class="footer__link"><div class="footer__iconBox"><i class='bx bxl-twitter' ></i></div></a>
+        <a href="#" class="footer__link"><div class="footer__iconBox"><i class='bx bxl-instagram-alt' ></i></div></a>
+        <a href="#" class="footer__link"><div class="footer__iconBox"><i class='bx bxl-google' ></i></div></a>
+        <div class="footer__copy">
+            <span class="footer__copyright">Copyright © 2021 | Crafted by <a href="#">Integer</a></span>
+        </div>
+        <a href="#home"><div class="redirect"><i class='bx bx-up-arrow-alt'></i></div></a>
+    </footer>
+    <script src="./script/main.js"></script>
+</body>
+</html>
