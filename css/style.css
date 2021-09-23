@@ -939,6 +939,7 @@ a {text-decoration: none;}
     }
 
     .about__grid:not(:first-child) { margin-top: 1.5rem;}
+    .about__grid:not(:first-child) { margin-left: -1rem;}
 
     .form__box {
         margin-top: 3rem;
@@ -988,7 +989,7 @@ a {text-decoration: none;}
     }
     
     .header__log {
-        width: 20%;
+        width: 22%;
     }
     
     .header__menu {
@@ -1120,7 +1121,7 @@ a {text-decoration: none;}
 
 @media screen and (max-width: 575px){
     .header__container {
-        height: 105vh;
+        height: 100vh;
     }
 
     .header__navigation {
@@ -1133,6 +1134,10 @@ a {text-decoration: none;}
 
     .header__logo {
         margin-top: .5rem;
+    }
+
+    .header__log {
+        width: 22%;
     }
 
     .header__main {
@@ -1198,6 +1203,7 @@ a {text-decoration: none;}
     }
     
     .about__grid:not(:first-child) { margin-top: 2rem; }
+    .about__grid:not(:first-child) { margin-left: -1rem;}
     
     .about__iconBox {
         width: 3rem;
