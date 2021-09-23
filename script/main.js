@@ -110,3 +110,19 @@ window.addEventListener('scroll', () => {
     header__navigation.classList.remove('scroll-header')
   }
 })
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal(`.header__countingList, .header__btn-left,
+            .header__btn-right, .about__textBox,
+            .about__grid, .form__text,
+            .form__subject, .form__textarea,
+            .footer__iconBox`, {
+    interval: 200
+})
