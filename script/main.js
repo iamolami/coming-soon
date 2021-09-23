@@ -123,6 +123,6 @@ sr.reveal(`.header__countingList, .header__btn-left,
             .header__btn-right, .about__textBox,
             .about__grid, .form__text,
             .form__subject, .form__textarea,
-            .footer__iconBox`, {
+            .footer__iconBox, .redirect, .form__btn`, {
     interval: 200
 })

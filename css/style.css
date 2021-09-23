@@ -1124,6 +1124,10 @@ a {text-decoration: none;}
         height: 100vh;
     }
 
+    .header__img {
+        width: 50%;
+    }
+
     .header__navigation {
         padding: .2rem 1rem;
     }
