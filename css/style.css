@@ -1120,7 +1120,7 @@ a {text-decoration: none;}
 
 @media screen and (max-width: 575px){
     .header__container {
-        height: 110vh;
+        height: 105vh;
     }
 
     .header__navigation {
@@ -1176,19 +1176,19 @@ a {text-decoration: none;}
     }
     
     .about__main {
-        font-size: 2rem;
+        font-size: 1.1rem;
         margin: 1.2rem 0;
     }
     
     .about__description {
         font-size: .7rem;
-        width: 70%;
+        width: 100%;
         margin: 1.2rem auto;
     }
     
     .about__box {
         justify-content: start;
-        padding: 1rem 5rem;
+        padding: 1rem;
         flex-direction: column;
     }
     
@@ -1209,7 +1209,7 @@ a {text-decoration: none;}
     }
     
     .about__title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .about__info {
@@ -1243,7 +1243,7 @@ a {text-decoration: none;}
     }
     
     .form__btn {
-        width: 30%;
+        width: 40%;
         padding: .8rem;
     }
     
@@ -1289,6 +1289,6 @@ a {text-decoration: none;}
     }
 
     .menu__link {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 }
