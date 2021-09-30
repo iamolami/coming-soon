@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="./image/onubia.ico" type="image/icon type">
     <title>Onubia- Africa #1 Marketplace</title>
 </head>
@@ -22,8 +22,6 @@
         </ul>
     </div>
     <section class="header__container" id="home">
-        <img src="./image/bg-2.png" alt="" class="header__img">
-        <div class="header__overlay">
             <nav class="header__navigation" id="header__navigation">
                 <div class="header__logo">
                     <a href="#"><img src="./image/onubia.png" alt="" class="header__log"></a>
@@ -33,19 +31,30 @@
 
             <div class="header__box">
                 <div class="header__text">
-                    <h2 class="header__main"><span class="header__primary">Onubia</span> is
+                    <h2 class="header__main"><span class="header__color">Onubia</span> is
                         <span class="header__span" data-period="2000" data-rotate='["Launching Soon", "coming soon"]'></span>
                     </h2>
                     <p class="header__info">Our exciting new website is coming soon! Check back later...</p>
+                    <p class="header__info">Get the best of African products anywhere in the world on 
+                        <span class="header__primary">Onubia</span>, the no 1 online marketplace for African products.
+                    </p>
                 </div>
 
                 <div class="header__counter">
                     <div class="header__count" id="countdown">
                         <ul class="header__countingItems">
-                            <li class="header__countingList"><span class="header__countingNumbers" id="Days"></span>Days</li>
-                            <li class="header__countingList"><span class="header__countingNumbers" id="Hours"></span>Hours</li>
-                            <li class="header__countingList"><span class="header__countingNumbers" id="Minutes"></span>Minutes</li>
-                            <li class="header__countingList heading__down"><span class="header__countingNumbers" id="Seconds"></span>Seconds</li>
+                            <div class="header__grid">
+                                <li class="header__countingList"><span class="header__countingNumbers" id="Days"></span>Days</li>
+                            </div>
+                            <div class="header__grid">
+                                <li class="header__countingList"><span class="header__countingNumbers" id="Hours"></span>Hours</li>
+                            </div>
+                            <div class="header__grid">
+                                <li class="header__countingList"><span class="header__countingNumbers" id="Minutes"></span>Minutes</li>
+                            </div>
+                            <div class="header__grid heading__down">
+                                <li class="header__countingList"><span class="header__countingNumbers" id="Seconds"></span>Seconds</li>
+                            </div>
                         </ul>
                     </div>
                 </div>
@@ -55,13 +64,12 @@
                     <a href="#about"><button class="header__btn-right">About Us</button></a>
                 </div>
             </div>
-        </div>
     </section>
 
     <main>
         <section class="about__container" id="about">
             <div class="about__textBox">
-                <p class="about__sub">What we do</p>
+                <p class="about__sub">Why Choose us?</p>
                 <h2 class="about__main">
                     An online Marketplace and More
                 </h2>
@@ -75,44 +83,39 @@
             <div class="about__box">
                 <div class="about__grid">
                     <div class="about__iconBox"><i class='bx bxs-business'></i></div>
-                    <h2 class="about__title">Business Branding</h2>
+                    <h2 class="about__title">Expand all across the Globe</h2>
                     <p class="about__info">
-                        Onubia would be branding promising unbranded businesses, helping craftsmen and women 
-                        with noteworthy skills become recognized brands locally and globally. This would not only 
-                        increase the number of local brands in the African market and increase 
-                        the earning potential of locals, but it would also drastically reduce the rate of piracy of foreign brands in Africa.
+                        A single platform that makes it easy for your customers to buy from all the countries you want to sell in, 
+                        instantly launch your store and start selling.
                     </p>
                 </div>
                 <div class="about__grid">
                     <div class="about__iconBox"><i class='bx bxs-analyse'></i></div>
-                    <h2 class="about__title">Flipping the narrative</h2>
+                    <h2 class="about__title">Innovative User Interface</h2>
                     <p class="about__info">
-                        We want to flip the popular narrative that African brands and products are inferior to their foreign 
-                        counterparts by selling only the very best of African products. we look to increase the popularity of i
-                        ndigenous brands that produce quality products, thereby gradually changing 
-                        the popular consensus that African brands and products are inferior to their foreign counterparts.
+                        We are building a platform that is so easy to use and navigate, 
+                        anyone could use it with ease. Simple, beautiful, and efficient. That’s the goal.
                     </p>
                 </div>
                 <div class="about__grid">
                     <div class="about__iconBox"><i class='bx bxs-shopping-bags'></i></div>
-                    <h2 class="about__title">Onubia Shop</h2>
+                    <h2 class="about__title">Flexible Payment Option</h2>
                     <p class="about__info">
-                        Onubia.shop online marketplace will provide indigenous brands the resources they need to 
-                        sell top quality products  both locally and internationally. We not only provide them with 
-                        an online platform to sell their products to both local and international 
-                        clients but also help run ad campaigns to improve their public perception and popularity.
+                        Our platform will have more payment methods than the world is used to. 
+                        We will support payment in both Fiat and Digital/Crypto Currencies.
                     </p>
                 </div>
                 <div class="about__grid">
                     <div class="about__iconBox"><i class='bx bxl-bitcoin' ></i></div>
-                    <h2 class="about__title">Cryptocurrencies</h2>
+                    <h2 class="about__title">Quicker Checkout</h2>
                     <p class="about__info">
-                        The Onubia marketplace is also a crypto/digital assets friendly marketplace. On launch shoppers will be able to make 
-                        seamless payments for purchases using their favorite Crypto/digital assets
+                        Using Our innovative cart feature, as well as other technological improvements, 
+                        We will reduce the number of clicks it takes to place orders.
                     </p>
                 </div>
             </div>
         </section>
+
 
         <section class="form__container" id="contact">
             <div class="about__textBox">
@@ -122,8 +125,7 @@
                 </h2>
                 <span class="about__line"></span>
                 <p class="about__description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla neque tempore rerum dolore accusamus, 
-                    eum, officia nostrum sequi explicabo aspernatur asperiores.
+                    Want to know more about our services or any other enquiry-we are ready to answer all and any of your questions.
                 </p>
             </div>
 
@@ -132,7 +134,7 @@
                 <input type="email" name="email" id="email" placeholder="Email" required class="form__input form__text">
                 <input type="text" name="subject" id="subject" placeholder="Subject" required class="form__input form__subject">
                 <textarea name="text" id="" cols="30" rows="10" class="form__input form__textarea" placeholder="Enter Your Message" required></textarea>
-                <button type="submit" class="form__btn">Send Message</button> 
+                <button type="submit" class="form__btn">Send Message</button>
             </form>
         </section>
     </main>
@@ -145,7 +147,7 @@
         <div class="footer__copy">
             <span class="footer__copyright">Copyright © 2021 | Crafted by <a href="#">Integer</a></span>
         </div>
-        <a href="#home"><div class="redirect"><i class='bx bx-up-arrow-alt'></i></div></a>
+        <a href="#home"><div class="redirect" id="scroll-top"><i class='bx bx-up-arrow-alt'></i></div></a>
     </footer>
     <!--========== SCROLL REVEAL ==========-->
     <script src="https://unpkg.com/scrollreveal"></script>

@@ -111,18 +111,26 @@ window.addEventListener('scroll', () => {
   }
 })
 
+/*==================== SHOW SCROLL TOP ====================*/ 
+function scrollTop(){
+  const scrollTop = document.getElementById('scroll-top');
+  // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+  if(this.scrollY >= 560) scrollTop.classList.add('show-scroll'); else scrollTop.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollTop)
+
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
-    duration: 2000,
+    duration: 1500,
     reset: true
 });
 
-sr.reveal(`.header__countingList, .header__btn-left,
+sr.reveal(`.header__grid, .header__btn-left,
             .header__btn-right, .about__textBox,
             .about__grid, .form__text,
             .form__subject, .form__textarea,
-            .footer__iconBox, .redirect, .form__btn`, {
-    interval: 200
+            .footer__iconBox, .redirect, .form__btn, .show-scroll`, {
+    interval: 100
 })
