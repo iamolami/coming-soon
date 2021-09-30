@@ -1044,6 +1044,7 @@ a {text-decoration: none;}
     .header__btn-right {
         width: 30%;
         margin-top: 1rem;
+        font-size: .8rem;
     }
 
     .about__container {
